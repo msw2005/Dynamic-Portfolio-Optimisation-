@@ -1,0 +1,38 @@
+// Proposed Model for Portfolio Optimization
+digraph {
+	A [label="Data Collection" color=lightblue shape=box style=filled]
+	B [label="Financial News" color=lightgrey shape=ellipse style=filled]
+	C [label="Social Media" color=lightgrey shape=ellipse style=filled]
+	D [label="Earnings Reports" color=lightgrey shape=ellipse style=filled]
+	E [label="Historical Data" color=lightgrey shape=ellipse style=filled]
+	A -> B [label=Source]
+	A -> C [label=Source]
+	A -> D [label=Source]
+	A -> E [label=Source]
+	F [label="Sentiment Analysis" color=lightgreen shape=box style=filled]
+	G [label="Multi-Dimensional Sentiment Scores
+(FinBERT, etc.)" color=lightgrey shape=ellipse style=filled]
+	A -> F [label=Process]
+	F -> G [label=Generate]
+	H [label="Feature Engineering" color=lightgreen shape=box style=filled]
+	I [label="Traditional Financial Metrics
+(P/E, Market Cap, Volatility)" color=lightgrey shape=ellipse style=filled]
+	G -> H [label=Combine]
+	H -> I [label=Integrate]
+	J [label="Predictive Modeling" color=lightgreen shape=box style=filled]
+	K [label="LSTM, SVM, Random Forests" color=lightgrey shape=ellipse style=filled]
+	I -> J [label=Use]
+	J -> K [label=Apply]
+	L [label="Risk Assessment" color=lightgreen shape=box style=filled]
+	M [label="CVaR, Expected Shortfall,
+Sharpe, Sortino Ratios" color=lightgrey shape=ellipse style=filled]
+	K -> L [label=Assess]
+	L -> M [label=Evaluate]
+	N [label="Portfolio Optimization" color=lightgreen shape=box style=filled]
+	O [label="Reinforcement Learning,
+Bayesian Inference" color=lightgrey shape=ellipse style=filled]
+	M -> N [label=Optimize]
+	N -> O [label=Implement]
+	P [label="Evaluation and Benchmarking" color=lightgreen shape=box style=filled]
+	O -> P [label=Benchmark]
+}

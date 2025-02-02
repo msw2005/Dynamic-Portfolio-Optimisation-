@@ -1,0 +1,34 @@
+// Proposed Model for Portfolio Optimization
+digraph {
+	A [label="Data Collection" color=lightblue shape=box style=filled]
+	B [label="Financial News" shape=box]
+	C [label="Social Media" shape=box]
+	D [label="Earnings Reports" shape=box]
+	E [label="Historical Data" shape=box]
+	A -> B
+	A -> C
+	A -> D
+	A -> E
+	F [label="Sentiment Analysis" color=lightblue shape=box style=filled]
+	G [label="Multi-Dimensional Sentiment Scores (FinBERT, etc.)" shape=box]
+	A -> F
+	F -> G
+	H [label="Feature Engineering" color=lightblue shape=box style=filled]
+	I [label="Traditional Financial Metrics (P/E, Market Cap, Volatility)" shape=box]
+	G -> H
+	H -> I
+	J [label="Predictive Modeling" color=lightblue shape=box style=filled]
+	K [label="LSTM, SVM, Random Forests" shape=box]
+	I -> J
+	J -> K
+	L [label="Risk Assessment" color=lightblue shape=box style=filled]
+	M [label="CVaR, Expected Shortfall, Sharpe, Sortino Ratios" shape=box]
+	K -> L
+	L -> M
+	N [label="Portfolio Optimization" color=lightblue shape=box style=filled]
+	O [label="Reinforcement Learning, Bayesian Inference" shape=box]
+	M -> N
+	N -> O
+	P [label="Evaluation and Benchmarking" color=lightblue shape=box style=filled]
+	O -> P
+}
