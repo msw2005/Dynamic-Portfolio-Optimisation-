@@ -1,1 +1,1 @@
-Author: M Sadiq Warsi
+Author: Sadiq Warsi
