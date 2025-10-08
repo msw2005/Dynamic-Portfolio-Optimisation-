@@ -48,6 +48,7 @@ def black_litterman_model(Sigma, P, Q, tau, Omega=None, Pi=None, rf=0.0):
     return posterior_mean + rf, posterior_covariance
 
 # Example usage
+
 if __name__ == "__main__":
     # Covariance matrix of the assets
     Sigma = np.array([
