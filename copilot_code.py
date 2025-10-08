@@ -10,6 +10,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 class PortfolioRiskAssessment:
     """
+    
     A class to perform portfolio risk assessment and optimization.
 
     Attributes:
