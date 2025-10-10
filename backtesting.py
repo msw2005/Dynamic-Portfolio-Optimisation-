@@ -4,7 +4,7 @@ import os
 import sys
 from scipy.optimize import minimize  # Import the minimize function
 
-# Add the current directory to the Python pat
+# Add the current directory to the Python path
 sys.path.append(os.getcwd())
 
 from copilot_code import PortfolioRiskAssessment
