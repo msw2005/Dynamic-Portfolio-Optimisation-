@@ -6,7 +6,7 @@ def moving_average_crossover(prices, short_window=40, long_window=100):
     Moving Average Crossover Strategy.
     prices: DataFrame containing stock prices with a 'Close' column
     short_window: Window for the short moving average
-    long_window: Window for the long moving average
+    long_window: Window for the long moving averages
     
     """
     signals = pd.DataFrame(index=prices.index)
