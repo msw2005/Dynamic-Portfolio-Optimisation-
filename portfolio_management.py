@@ -8,7 +8,7 @@ from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.news import News
 import requests
 
-# Initialize the sentiment analyzer
+# Initialize the sentiment analyzer,
 analyzer = SentimentIntensityAnalyzer()
 
 # Function to fetch stock data from Alpha Vantage API
