@@ -4,7 +4,7 @@ import logging
 import yfinance as yf
 from scipy.optimize import minimize
 from sklearn.linear_model import LinearRegression
-
+# Import statements
 # Configure logging,
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
