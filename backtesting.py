@@ -2,8 +2,7 @@ import logging
 import numpy as np
 import os
 import sys
-from scipy.optimize import minimize  # Import the minimize function
-
+from scipy.optimize import minimize  # Import the minimize functionx
 # Add the current directory to the Python path,
 sys.path.append(os.getcwd())
 
