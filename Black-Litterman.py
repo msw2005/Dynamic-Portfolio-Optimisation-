@@ -3,7 +3,7 @@ import pandas as pd
 
 def black_litterman_model(Sigma, P, Q, tau, Omega=None, Pi=None, rf=0.0):
     """
-    Black-Litterman model implementation.
+    Black-Litterman model implementation.k
 
     Parameters:
     Sigma : np.ndarray
