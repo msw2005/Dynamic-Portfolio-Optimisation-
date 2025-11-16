@@ -18,7 +18,7 @@ def fetch_stock_data(api_key, ticker, start_date, end_date):
     stock_data = stock_data[start_date:end_date]
     return stock_data
 
-# Function to fetch news data from Alpha Vantage API
+# Function to fetch news data from Alpha Vantage APIx
 def fetch_news_data(api_key, ticker):
     url = f"https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers={ticker}&apikey={api_key}"
     response = requests.get(url)
