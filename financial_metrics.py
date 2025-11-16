@@ -2,7 +2,7 @@ import pandas as pd
 
 def calculate_revenue_and_profit_margins(financial_data):
     """
-    Calculate revenue and profit margins.;
+    Calculate revenue and profit margins.;x
     financial_data: DataFrame containing financial data with columns 'Revenue' and 'Profit'
     """
     revenue = financial_data['Revenue']
