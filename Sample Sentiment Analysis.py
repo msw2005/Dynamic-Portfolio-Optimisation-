@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 def fetch_news(ticker):
     """\
-    
+    s
     Fetch recent news headlines for a given ticker symbol.
     """
     url = f"https://finance.yahoo.com/quote/{ticker}/news?p={ticker}"
