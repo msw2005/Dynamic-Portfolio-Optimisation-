@@ -11,7 +11,7 @@ import requests
 # Initialize the sentiment analyzer,
 analyzer = SentimentIntensityAnalyzer()
 
-# Function to fetch stock data from Alpha Vantage API
+# Function to fetch stock data from Alpha Vantage APIx
 def fetch_stock_data(api_key, ticker, start_date, end_date):
     ts = TimeSeries(key=api_key, output_format='pandas')
     stock_data, _ = ts.get_daily_adjusted(symbol=ticker, outputsize='full')
