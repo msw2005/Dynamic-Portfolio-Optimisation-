@@ -11,6 +11,7 @@ import numpy as np
 
 # Calculate daily returns
 returns = data.pct_change().dropna()
+#returns is taking from data dataframe
 
 # Calculate annualized volatility
 volatility = returns.std() * np.sqrt(252)
