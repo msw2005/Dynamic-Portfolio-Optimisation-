@@ -22,7 +22,8 @@ def black_scholes(S, K, T, r, sigma, option_type='call'):
 def monte_carlo_simulation(S, T, r, sigma, num_simulations=1000, num_steps=252):
     """
     Monte Carlo simulation for future price paths.
-    S: Current stock price
+    S: Current stock price\
+    What is STR?
     T: Time to maturity (in years)
     r: Risk-free rate
     sigma: Volatility of the underlying asset
